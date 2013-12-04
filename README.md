@@ -1,4 +1,4 @@
-#Design Process Modeler
+###Design Process Modeler
 
 Design Process Modeler (DPM) is software written in Java that employs Sun's JXTA peer to peer framework. It was written by Michael Cumming 2003-2005 as part of his PhD in Computational Design at Carnegie Mellon University's School of Architecture. 
 
