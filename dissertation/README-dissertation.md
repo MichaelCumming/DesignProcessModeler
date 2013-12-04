@@ -1,4 +1,4 @@
-#Constructing Process Models from Distributed Design Activity
+###Constructing Process Models from Distributed Design Activity
 Michael James Cumming
 
 Submitted in partial fulfillment of the requirements for the degree of Doctor of Philosophy
@@ -7,7 +7,7 @@ Carnegie Mellon University
 Pittsburgh, PA 15213 USA
 May 2005
 
-##Dissertation Abstract
+####Dissertation Abstract
 Collaborative design is a complex cognitive and social activity
 that requires coordination of both processes and products between its
 participants. Information required for this coordinative activity are
