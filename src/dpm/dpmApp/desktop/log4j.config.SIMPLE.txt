@@ -1,0 +1,17 @@
+# initialise root logger with level DEBUG and call its only appender A1
+log4j.rootLogger=DEBUG, A1
+
+# set A1 to be a ConsoleAppender
+log4j.appender.A1=org.apache.log4j.ConsoleAppender
+
+# set A1's layout to be SimpleLayout
+log4j.appender.A1.layout=org.apache.log4j.SimpleLayout
+
+#package dpm.dpmApp: print only messages of level WARN or above
+log4j.logger.dpm.dpmApp=WARN
+
+#package net.jxta: print only messages of level WARN or above
+log4j.logger.net.jxta=WARN
+
+#package de.huberlin: print only messages of level WARN or above
+log4j.logger.de.huberlin=WARN

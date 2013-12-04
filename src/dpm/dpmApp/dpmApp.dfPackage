@@ -1,0 +1,35 @@
+package idw5b9dvanrq3sdvansie7;
+
+/**
+@version 2.0
+@physicalPackage
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:design#Class#id75sydvanrq3sdvansigf.diagram:oiref><oihard>
+@__modelType reference
+@__fqn <oiref:#Package#dpm.dpmApp.desktop:oiref> 
+*/
+class reference {
+}/**
+@__ref <oiref:design#Class#id4ni2zdvanrq3sdvansifl.diagram:oiref><oihard>
+@__modelType reference
+@__fqn <oiref:#Package#dpm.dpmApp.configuration:oiref> 
+*/
+class reference24 {
+}}/**
+@__tags
+@shapeType ClassDiagram 
+*/
+class __tags {
+}/**
+@__options 
+*/
+class __options {
+}/**
+@__positions <oigroup:<oiref:design#Class#id4ni2zdvanrq3sdvansifl.diagram:oiref>=177,10,113,110,1:oigroup>
+<oigroup:<oiref:design#Class#id75sydvanrq3sdvansigf.diagram:oiref>=10,10,144,222,1:oigroup>
+*/
+class __positions {
+}

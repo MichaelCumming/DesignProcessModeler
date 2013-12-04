@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Created-By: NetBeans IDE
+Specified-By: dpm.jarContent
+Main-Class: dpm.dpmApp.desktop.DpmAppTopFrame

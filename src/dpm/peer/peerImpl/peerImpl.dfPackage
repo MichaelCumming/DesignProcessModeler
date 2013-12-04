@@ -1,0 +1,33 @@
+package id2jaowdvanrq3sdvansim9;
+
+/**
+@version 2.0
+@physicalPackage
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:java#Class#dpm.peer.peerImpl.Person:oiref><oihard>
+@__modelType reference 
+*/
+class reference {
+}/**
+@__ref <oiref:design#Class#id1ddyndycnhxludycnj0ov.diagram:oiref><oihard>
+@__modelType reference
+@__fqn <oiref:#Package#dpm.peer.peerImpl.LOC*jar:oiref> 
+*/
+class reference66 {
+}}/**
+@__tags
+@shapeType ClassDiagram 
+*/
+class __tags {
+}/**
+@__options 
+*/
+class __options {
+}/**
+@__positions 
+*/
+class __positions {
+}

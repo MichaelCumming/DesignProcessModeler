@@ -1,0 +1,54 @@
+package id3k2jwdvanrq3sdvanshs8;
+
+/**
+@version 2.0
+@physicalPackage
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:design#Class#idbd4kdvanrq3sdvanshxi.diagram:oiref><oihard>
+@__modelType reference
+@__fqn <oiref:#Package#dpm.container.tree:oiref> 
+*/
+class reference {
+}/**
+@__ref <oiref:java#Class#dpm.container.PGUtilities:oiref><oihard>
+@__modelType reference 
+*/
+class reference20 {
+}/**
+@__ref <oiref:java#Class#dpm.container.HPG:oiref><oihard>
+@__modelType reference 
+*/
+class reference21 {
+}/**
+@__ref <oiref:design#Class#id2ne4ydvanrq3sdvanshtc.diagram:oiref><oihard>
+@__modelType reference
+@__fqn <oiref:#Package#dpm.container.peergroup:oiref> 
+*/
+class reference22 {
+}/**
+@__ref <oiref:design#Class#id1bsghdycnhxludycniqga.diagram:oiref><oihard>
+@__modelType reference
+@__fqn <oiref:#Package#dpm.container.LOC*jar:oiref> 
+*/
+class reference16 {
+}}/**
+@__tags
+@shapeType ClassDiagram 
+*/
+class __tags {
+}/**
+@__options 
+*/
+class __options {
+}/**
+@__positions <oigroup:<oiref:java#Class#dpm.container.HPG:oiref>=230,10,200,446,1:oigroup>
+<oigroup:<oiref:design#Class#idbd4kdvanrq3sdvanshxi.diagram:oiref>=10,490,147,209,1:oigroup>
+<oigroup:<oiref:design#Class#id3fgcgdy8a7dotdy8a7w3q.diagram:oiref>=450,10,83,95,1:oigroup>
+<oigroup:<oiref:java#Class#dpm.container.PGUtilities:oiref>=10,10,200,382,1:oigroup>
+<oigroup:<oiref:design#Class#id2ne4ydvanrq3sdvanshtc.diagram:oiref>=177,490,105,193,1:oigroup> 
+*/
+class __positions {
+}

@@ -1,0 +1,38 @@
+package idyw6zdvanrq3sdvansiix;
+
+/**
+@version 2.0
+@physicalPackage
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:java#Class#dpm.dpmApp.desktop.subpages.PeerGroupsTreePage:oiref><oihard>
+@__modelType reference 
+*/
+class reference {
+}/**
+@__ref <oiref:java#Class#dpm.dpmApp.desktop.subpages.ListPage:oiref><oihard>
+@__modelType reference 
+*/
+class reference41 {
+}/**
+@__ref <oiref:design#Class#id3vpfbdycnhxludycnizt6.diagram:oiref><oihard>
+@__modelType reference
+@__fqn <oiref:#Package#dpm.dpmApp.desktop.subpages.LOC*jar:oiref> 
+*/
+class reference49 {
+}}/**
+@__tags
+@shapeType ClassDiagram 
+*/
+class __tags {
+}/**
+@__options 
+*/
+class __options {
+}/**
+@__positions 
+*/
+class __positions {
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE attributes PUBLIC "-//NetBeans//DTD DefaultAttributes 1.0//EN" "http://www.netbeans.org/dtds/attributes-1_0.dtd">
+<attributes version="1.0">
+    <fileobject name="LinkAdvertisement.java">
+        <attr name="class_dependency_dpm.content.DeleteChecker" stringvalue="LinkAdvertisement"/>
+        <attr name="class_dependency_dpm.content.advertisement.designEntity.related.ConstraintAdv" stringvalue="LinkAdvertisement"/>
+        <attr name="class_dependency_dpm.dpmApp.desktop.DpmTerms" stringvalue="LinkAdvertisement"/>
+    </fileobject>
+    <fileobject name="PolicyAdvertisement.java">
+        <attr name="class_dependency_dpm.content.DeleteChecker" stringvalue="PolicyAdvertisement"/>
+        <attr name="class_dependency_dpm.content.advertisement.designEntity.related.ConstraintAdv" stringvalue="PolicyAdvertisement"/>
+        <attr name="class_dependency_dpm.dpmApp.desktop.DpmTerms" stringvalue="PolicyAdvertisement"/>
+    </fileobject>
+</attributes>

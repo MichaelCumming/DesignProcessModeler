@@ -1,0 +1,34 @@
+8 
+    de.renew.gui.CPNDrawing 12 
+        de.renew.gui.PlaceFigure "attributes" "attributes" 4 "FigureWithID" "Int" 49 "FrameColor" "Color" 0 0 0 "MarkingAppearance" "Int" 3 "FillColor" "Color" 112 219 147 268 30 20 20 NULL  
+        de.renew.gui.PlaceFigure "attributes" "attributes" 4 "FigureWithID" "Int" 50 "FrameColor" "Color" 0 0 0 "MarkingAppearance" "Int" 3 "FillColor" "Color" 112 219 147 261 179 20 20 NULL  
+        de.renew.gui.TransitionFigure "attributes" "attributes" 3 "FigureWithID" "Int" 51 "FrameColor" "Color" 0 0 0 "FillColor" "Color" 112 219 147 396 105 24 16 NULL  
+        de.renew.gui.TransitionFigure "attributes" "attributes" 3 "FigureWithID" "Int" 9 "FrameColor" "Color" 0 0 0 "FillColor" "Color" 112 219 147 147 102 24 16 NULL  
+        de.renew.gui.ArcConnection "attributes" "attributes" 1 "FigureWithID" "Int" 52 2 287 45 396 106 NULL 
+            CH.ifa.draw.figures.ArrowTip 0.4 8.0 8.0 1  "CH.ifa.draw.figures.ArrowTip" 
+            CH.ifa.draw.figures.ChopEllipseConnector REF 1  
+            CH.ifa.draw.standard.ChopBoxConnector REF 3   
+        de.renew.gui.ArcConnection "attributes" "attributes" 1 "FigureWithID" "Int" 53 2 396 119 280 185 NULL 
+            CH.ifa.draw.figures.ArrowTip 0.4 8.0 8.0 1  "CH.ifa.draw.figures.ArrowTip" 
+            CH.ifa.draw.standard.ChopBoxConnector REF 3  
+            CH.ifa.draw.figures.ChopEllipseConnector REF 2   
+        de.renew.gui.ArcConnection "attributes" "attributes" 1 "FigureWithID" "Int" 54 2 171 102 270 45 NULL 
+            CH.ifa.draw.figures.ArrowTip 0.4 8.0 8.0 1  "CH.ifa.draw.figures.ArrowTip" 
+            CH.ifa.draw.standard.ChopBoxConnector REF 4  
+            CH.ifa.draw.figures.ChopEllipseConnector REF 1   
+        de.renew.gui.ArcConnection "attributes" "attributes" 1 "FigureWithID" "Int" 59 2 264 184 170 118 NULL 
+            CH.ifa.draw.figures.ArrowTip 0.4 8.0 8.0 1  "CH.ifa.draw.figures.ArrowTip" 
+            CH.ifa.draw.figures.ChopEllipseConnector REF 2  
+            CH.ifa.draw.standard.ChopBoxConnector REF 4   
+        de.renew.gui.CPNTextFigure "attributes" "attributes" 4 "FigureWithID" "Int" 55 "FrameColor" "Color" 255 199 158 "TextAlignment" "Int" 1 "FillColor" "Color" 255 199 158 391 82 "0.choiceMade=choice has been made" "SansSerif" 1 12 0 REF 3 
+            CH.ifa.draw.standard.OffsetLocator 90 -23 
+                CH.ifa.draw.standard.RelativeLocator 0.5 0.5   2  
+        de.renew.gui.CPNTextFigure "attributes" "attributes" 4 "FigureWithID" "Int" 57 "FrameColor" "Color" 255 199 158 "TextAlignment" "Int" 1 "FillColor" "Color" 255 199 158 27 82 "1.reuseExistingChoicePoint=use this choice point again" "SansSerif" 1 12 0 REF 4 
+            CH.ifa.draw.standard.OffsetLocator 25 -20 
+                CH.ifa.draw.standard.RelativeLocator 0.5 0.5   2  
+        de.renew.gui.CPNTextFigure "attributes" "attributes" 4 "FigureWithID" "Int" 58 "FrameColor" "Color" 255 199 158 "TextAlignment" "Int" 1 "FillColor" "Color" 255 199 158 299 29 "0.Choice_NOT_YET_MADE" "SansSerif" 1 12 0 REF 1 
+            CH.ifa.draw.standard.OffsetLocator 95 -3 
+                CH.ifa.draw.standard.RelativeLocator 0.5 0.5   2  
+        de.renew.gui.CPNTextFigure "attributes" "attributes" 4 "FigureWithID" "Int" 56 "FrameColor" "Color" 255 199 158 "TextAlignment" "Int" 1 "FillColor" "Color" 255 199 158 299 181 "1.Choice_MADE" "SansSerif" 1 12 0 REF 2 
+            CH.ifa.draw.standard.OffsetLocator 72 0 
+                CH.ifa.draw.standard.RelativeLocator 0.5 0.5   2  NULL  3 129 893 817 

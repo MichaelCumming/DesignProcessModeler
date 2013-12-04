@@ -1,0 +1,49 @@
+package idxqtvdvanrq3sdvansi1e;
+
+/**
+@version 2.0
+@physicalPackage
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:java#Class#dpm.content.advertisement.designEntity.DesignEntityRelatedAdv:oiref><oihard>
+@__modelType reference 
+*/
+class reference {
+}/**
+@__ref <oiref:java#Class#dpm.content.advertisement.designEntity.TaskAdvertisement:oiref><oihard>
+@__modelType reference 
+*/
+class reference30 {
+}/**
+@__ref <oiref:design#Class#id13md7dvanrq3sdvansi2i.diagram:oiref><oihard>
+@__modelType reference
+@__fqn <oiref:#Package#dpm.content.advertisement.designEntity.related:oiref> 
+*/
+class reference31 {
+}/**
+@__ref <oiref:java#Class#dpm.content.advertisement.designEntity.ProductAdvertisement:oiref><oihard>
+@__modelType reference 
+*/
+class reference32 {
+}/**
+@__ref <oiref:design#Class#idcvk9dycnhxludycnit2b.diagram:oiref><oihard>
+@__modelType reference
+@__fqn <oiref:#Package#dpm.content.advertisement.designEntity.LOC*jar:oiref> 
+*/
+class reference65 {
+}}/**
+@__tags
+@shapeType ClassDiagram 
+*/
+class __tags {
+}/**
+@__options 
+*/
+class __options {
+}/**
+@__positions 
+*/
+class __positions {
+}

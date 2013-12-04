@@ -1,0 +1,73 @@
+package id1zqb6dvanrq3sdvansi00;
+
+/**
+@version 2.0
+@physicalPackage
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:java#Class#dpm.content.advertisement.NetAdvertisement:oiref><oihard>
+@__modelType reference 
+*/
+class reference {
+}/**
+@__ref <oiref:java#Class#dpm.content.advertisement.IPGAdvertisement:oiref><oihard>
+@__modelType reference 
+*/
+class reference51 {
+}/**
+@__ref <oiref:design#Class#idxqtvdvanrq3sdvansi1e.diagram:oiref><oihard>
+@__modelType reference
+@__fqn <oiref:#Package#dpm.content.advertisement.designEntity:oiref> 
+*/
+class reference52 {
+}/**
+@__ref <oiref:java#Class#dpm.content.advertisement.DesignEntityAdv:oiref><oihard>
+@__modelType reference 
+*/
+class reference53 {
+}/**
+@__ref <oiref:java#Class#dpm.content.advertisement.AdvUtilities:oiref><oihard>
+@__modelType reference 
+*/
+class reference54 {
+}/**
+@__ref <oiref:java#Class#dpm.content.advertisement.DeleteAdvertisement:oiref><oihard>
+@__modelType reference 
+*/
+class reference55 {
+}/**
+@__ref <oiref:design#Class#id3o19ydvanrq3sdvansi4q.diagram:oiref><oihard>
+@__modelType reference
+@__fqn <oiref:#Package#dpm.content.advertisement.net:oiref> 
+*/
+class reference56 {
+}/**
+@__ref <oiref:design#Class#id1oi5tdycnhxludycniug4.diagram:oiref><oihard>
+@__modelType reference
+@__fqn <oiref:#Package#dpm.content.advertisement.LOC*jar:oiref> 
+*/
+class reference83 {
+}}/**
+@__tags
+@shapeType ClassDiagram 
+*/
+class __tags {
+}/**
+@__options 
+*/
+class __options {
+}/**
+@__positions <oigroup:<oiref:java#Class#dpm.content.advertisement.DesignEntityAdv:oiref>=525,10,191,1051,1:oigroup>
+<oigroup:<oiref:java#Class#dpm.content.advertisement.NetAdvertisement:oiref>=10,10,191,651,1:oigroup>
+<oigroup:<oiref:design#Class#id2j0xpdy8a7dotdy8a7z8e.diagram:oiref>=520,1250,83,95,1:oigroup>
+<oigroup:<oiref:java#Class#dpm.content.advertisement.AdvUtilities:oiref>=736,10,305,651,1:oigroup>
+<oigroup:<oiref:java#Class#dpm.content.advertisement.IPGAdvertisement:oiref>=221,10,284,507,1:oigroup>
+<oigroup:<oiref:design#Class#id1oi5tdycnhxludycniug4.diagram:oiref>=763,1002,80,92,1:oigroup>
+<oigroup:<oiref:design#Class#idxqtvdvanrq3sdvansi1e.diagram:oiref>=899,770,149,158,1:oigroup>
+<oigroup:<oiref:design#Class#id3o19ydvanrq3sdvansi4q.diagram:oiref>=736,770,143,126,1:oigroup>
+<oigroup:<oiref:java#Class#dpm.content.advertisement.DeleteAdvertisement:oiref>=1061,10,191,587,1:oigroup>
+*/
+class __positions {
+}

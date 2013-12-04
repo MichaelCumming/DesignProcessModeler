@@ -1,0 +1,53 @@
+package idboq6dvanrq3sdvansi79;
+
+/**
+@version 2.0
+@physicalPackage
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:java#Class#dpm.content.comparator.designEntity.DesignEntityAdvComparator:oiref><oihard>
+@__modelType reference 
+*/
+class reference {
+}/**
+@__ref <oiref:java#Class#dpm.content.comparator.designEntity.PolicyComparator:oiref><oihard>
+@__modelType reference 
+*/
+class reference39 {
+}/**
+@__ref <oiref:java#Class#dpm.content.comparator.designEntity.LinkComparator:oiref><oihard>
+@__modelType reference 
+*/
+class reference40 {
+}/**
+@__ref <oiref:java#Class#dpm.content.comparator.designEntity.HistoryAdvComparator:oiref><oihard>
+@__modelType reference 
+*/
+class reference41 {
+}/**
+@__ref <oiref:java#Class#dpm.content.comparator.designEntity.DesignEntityRelatedAdvComparator:oiref><oihard>
+@__modelType reference 
+*/
+class reference42 {
+}/**
+@__ref <oiref:design#Class#id3bzxfdycnhxludycnivc3.diagram:oiref><oihard>
+@__modelType reference
+@__fqn <oiref:#Package#dpm.content.comparator.designEntity.LOC*jar:oiref> 
+*/
+class reference20 {
+}}/**
+@__tags
+@shapeType ClassDiagram 
+*/
+class __tags {
+}/**
+@__options 
+*/
+class __options {
+}/**
+@__positions 
+*/
+class __positions {
+}

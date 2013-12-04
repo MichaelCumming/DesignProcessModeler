@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE attributes PUBLIC "-//NetBeans//DTD DefaultAttributes 1.0//EN" "http://www.netbeans.org/dtds/attributes-1_0.dtd">
+<attributes version="1.0">
+    <fileobject name="NewConstraintLinkForm.java">
+        <attr name="class_dependency_dpm.dpmApp.desktop.forms.LinkForm" stringvalue="NewConstraintLinkForm"/>
+    </fileobject>
+    <fileobject name="NewSubEntityChildOnlyForm.java">
+        <attr name="class_dependency_dpm.dpmApp.desktop.forms.LinkForm" stringvalue="NewSubEntityChildOnlyForm"/>
+    </fileobject>
+    <fileobject name="NewSequentialLinkChildOnlyForm.java">
+        <attr name="class_dependency_dpm.dpmApp.desktop.forms.LinkForm" stringvalue="NewSequentialLinkChildOnlyForm"/>
+    </fileobject>
+    <fileobject name="NewSequentialLinkForm.java">
+        <attr name="class_dependency_dpm.dpmApp.desktop.forms.LinkForm" stringvalue="NewSequentialLinkForm"/>
+    </fileobject>
+    <fileobject name="NewInfoLinkForm.java">
+        <attr name="class_dependency_dpm.dpmApp.desktop.forms.LinkForm" stringvalue="NewInfoLinkForm"/>
+    </fileobject>
+    <fileobject name="NewChoicePointFormX.java">
+        <attr name="class_dependency_dpm.dpmApp.desktop.forms.LinkForm" stringvalue="NewChoicePointFormX"/>
+    </fileobject>
+    <fileobject name="NewSubEntityParentChildForm.java">
+        <attr name="class_dependency_dpm.dpmApp.desktop.forms.LinkForm" stringvalue="NewSubEntityParentChildForm"/>
+    </fileobject>
+</attributes>

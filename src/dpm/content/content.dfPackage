@@ -1,0 +1,132 @@
+package id3z0q5dvanrq3sdvanshyw;
+
+/**
+@version 2.0
+@physicalPackage
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:design#Class#idk1aydvanrq3sdvansi9r.diagram:oiref><oihard>
+@__modelType reference
+@__fqn <oiref:#Package#dpm.content.designEntity:oiref> 
+*/
+class reference {
+}/**
+@__ref <oiref:design#Class#id4qb17dvanrq3sdvansi65.diagram:oiref><oihard>
+@__modelType reference
+@__fqn <oiref:#Package#dpm.content.comparator:oiref> 
+*/
+class reference5 {
+}/**
+@__ref <oiref:java#Class#dpm.content.DesignEntity:oiref><oihard>
+@__modelType reference 
+*/
+class reference7 {
+}/**
+@__ref <oiref:java#Class#dpm.content.ContentDisplayer:oiref><oihard>
+@__modelType reference 
+*/
+class reference8 {
+}/**
+@__ref <oiref:design#Class#id17h7rdvanrq3sdvansi8d.diagram:oiref><oihard>
+@__modelType reference
+@__fqn <oiref:#Package#dpm.content.constraint:oiref> 
+*/
+class reference9 {
+}/**
+@__ref <oiref:design#Class#id1zqb6dvanrq3sdvansi00.diagram:oiref><oihard>
+@__modelType reference
+@__fqn <oiref:#Package#dpm.content.advertisement:oiref> 
+*/
+class reference10 {
+}/**
+@__ref <oiref:design#Class#id1dzrmdvanrq3sdvansib5.diagram:oiref><oihard>
+@__modelType reference
+@__fqn <oiref:#Package#dpm.content.history:oiref> 
+*/
+class reference11 {
+}/**
+@__ref <oiref:java#Class#dpm.content.ContentStorage:oiref><oihard>
+@__modelType reference 
+*/
+class reference12 {
+}/**
+@__ref <oiref:java#Class#dpm.content.DisplayUserObject:oiref><oihard>
+@__modelType reference 
+*/
+class reference14 {
+}/**
+@__ref <oiref:java#Class#dpm.content.ContentSearcherTree:oiref><oihard>
+@__modelType reference 
+*/
+class reference15 {
+}/**
+@__ref <oiref:java#Class#dpm.content.EntityRelatedContentStorage:oiref><oihard>
+@__modelType reference 
+*/
+class reference16 {
+}/**
+@__ref <oiref:java#Class#dpm.content.Tests:oiref><oihard>
+@__modelType reference 
+*/
+class reference18 {
+}/**
+@__ref <oiref:design#Class#id1s3j4dvanrq3sdvansid3.diagram:oiref><oihard>
+@__modelType reference
+@__fqn <oiref:#Package#dpm.content.state:oiref> 
+*/
+class reference19 {
+}/**
+@__ref <oiref:design#Class#id7ukrdycnhxludycnixi9.diagram:oiref><oihard>
+@__modelType reference
+@__fqn <oiref:#Package#dpm.content.LOC*jar:oiref> 
+*/
+class reference82 {
+}}/**
+@__tags
+@shapeType ClassDiagram 
+*/
+class __tags {
+}/**
+@__options option.initialwidth = 325
+*/
+class __options {
+}/**
+@__positions <oigroup:MemberLink#<oiref:java#Member#dpm.content.ContentDisplayer#tasks:oiref>=650,116,608,116:oigroup>
+<oigroup:<oiref:java#Class#dpm.content.EntityRelatedContentStorage:oiref>=640,300,233,427,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#dpm.content.EntityRelatedContentStorage#roles:oiref>=640,619,608,619:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#dpm.content.ContentSearcherX#tasks:oiref>=44,2020,44,1749,130,1749,130,1478:oigroup>
+<oigroup:<oiref:design#Class#id1zqb6dvanrq3sdvansi00.diagram:oiref>=900,200,132,206,1:oigroup>
+<oigroup:<oiref:java#Class#dpm.content.ContentSearcherTree:oiref>=640,760,227,491,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#dpm.content.ContentDisplayer#csAdvPG:oiref>=650,169,608,169:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#dpm.content.EntityRelatedContentStorage#histories:oiref>=640,512,608,512:oigroup>
+<oigroup:<oiref:design#Class#id17h7rdvanrq3sdvansi8d.diagram:oiref>=900,10,100,158,1:oigroup>
+<oigroup:<oiref:java#Class#dpm.content.ContentDisplayer:oiref>=650,10,176,267,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#dpm.content.ContentSearcherX#peers:oiref>=114,2020,114,1749,143,1749,143,1478:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#dpm.content.PGMakerX#csPG:oiref>=242,229,242,299:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#dpm.content.ContentSearcherX#contentDisplayer:oiref>=210,2153,329,2153:oigroup>
+<oigroup:<oiref:design#Class#id3vcspdy13o6eidy13ovua.diagram:oiref>=1085,1510,80,92,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#dpm.content.ContentSearcherX#csPG:oiref>=149,2020,149,1478:oigroup>
+<oigroup:<oiref:design#Class#id1s3j4dvanrq3sdvansid3.diagram:oiref>=900,440,164,174,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#dpm.content.EntityRelatedContentStorage#outgoingLinks:oiref>=640,353,608,353:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#dpm.content.ContentDisplayer#csPG:oiref>=650,63,608,63:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#dpm.content.EntityRelatedContentStorage#policies:oiref>=640,673,608,673:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#dpm.content.PGMakerX#csAdvPG:oiref>=212,229,212,299:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#dpm.content.ContentSearcherX#csAdvPG:oiref>=79,2020,79,1749,137,1749,137,1478:oigroup>
+<oigroup:<oiref:design#Class#id4qb17dvanrq3sdvansi65.diagram:oiref>=890,820,170,270,1:oigroup>
+<oigroup:<oiref:design#Class#id12x17dy8a7dotdy8a81k4.diagram:oiref>=740,1700,80,92,1:oigroup>
+<oigroup:<oiref:java#Class#dpm.content.ContentStorage:oiref>=310,10,298,1179,1:oigroup>
+<oigroup:<oiref:java#Class#dpm.content.Tests:oiref>=890,1120,85,130,1:oigroup>
+<oigroup:<oiref:java#Class#dpm.content.DisplayUserObject:oiref>=1050,10,169,363,1:oigroup>
+<oigroup:<oiref:design#Class#id1dzrmdvanrq3sdvansib5.diagram:oiref>=900,650,130,110,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#dpm.content.EntityRelatedContentStorage#incomingLinks:oiref>=640,406,608,406:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#dpm.content.ContentDisplayer#peers:oiref>=650,223,608,223:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#dpm.content.EntityRelatedContentStorage#allLinks:oiref>=640,459,608,459:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#dpm.content.EntityRelatedContentStorage#inputs:oiref>=640,565,608,565:oigroup>
+<oigroup:<oiref:design#Class#idk1aydvanrq3sdvansi9r.diagram:oiref>=20,1040,85,126,1:oigroup>
+<oigroup:<oiref:java#Class#dpm.content.DesignEntity:oiref>=10,10,267,987,1:oigroup>
+<oigroup:<oiref:design#Class#id7ukrdycnhxludycnixi9.diagram:oiref>=1240,41,80,92,1:oigroup>
+*/
+class __positions {
+}

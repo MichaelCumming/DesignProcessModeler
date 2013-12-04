@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE attributes PUBLIC "-//NetBeans//DTD DefaultAttributes 1.0//EN" "http://www.netbeans.org/dtds/attributes-1_0.dtd">
+<attributes version="1.0">
+    <fileobject name="PolicyInputPanelNewEntity.java">
+        <attr name="class_dependency_dpm.dpmApp.desktop.forms.input.TransitionInputPanel" stringvalue="PolicyInputPanelNewEntity"/>
+    </fileobject>
+    <fileobject name="PolicyInputPanelAdd.java">
+        <attr name="class_dependency_dpm.dpmApp.desktop.forms.input.TransitionInputPanel" stringvalue="PolicyInputPanelAdd"/>
+    </fileobject>
+    <fileobject name="LinksInputPanel.java">
+        <attr name="class_dependency_dpm.dpmApp.desktop.forms.input.TransitionInputPanel" stringvalue="LinksInputPanel"/>
+    </fileobject>
+    <fileobject name="PolicyInputPanelDelete.java">
+        <attr name="class_dependency_dpm.dpmApp.desktop.forms.input.TransitionInputPanel" stringvalue="PolicyInputPanelDelete"/>
+    </fileobject>
+</attributes>

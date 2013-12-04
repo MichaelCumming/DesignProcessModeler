@@ -1,0 +1,61 @@
+package id1s3j4dvanrq3sdvansid3;
+
+/**
+@version 2.0
+@physicalPackage
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:java#Class#dpm.content.state.SimpleInputPolicy:oiref><oihard>
+@__modelType reference 
+*/
+class reference {
+}/**
+@__ref <oiref:java#Class#dpm.content.state.LoopNetReader:oiref><oihard>
+@__modelType reference 
+*/
+class reference57 {
+}/**
+@__ref <oiref:java#Class#dpm.content.state.StateChangerNetAccessor:oiref><oihard>
+@__modelType reference 
+*/
+class reference58 {
+}/**
+@__ref <oiref:java#Class#dpm.content.state.DesignEntityStateChanger:oiref><oihard>
+@__modelType reference 
+*/
+class reference59 {
+}/**
+@__ref <oiref:java#Class#dpm.content.state.DesignEntityInputPolicy:oiref><oihard>
+@__modelType reference 
+*/
+class reference61 {
+}/**
+@__ref <oiref:design#Class#id35zwidycnhxludycnixxu.diagram:oiref><oihard>
+@__modelType reference
+@__fqn <oiref:#Package#dpm.content.state.LOC*jar:oiref> 
+*/
+class reference87 {
+}}/**
+@__tags
+@shapeType ClassDiagram 
+*/
+class __tags {
+}/**
+@__options 
+*/
+class __options {
+}/**
+@__positions <oigroup:<oiref:java#Class#dpm.content.state.SimpleInputPolicy:oiref>=62,273,116,91,1:oigroup>
+<oigroup:<oiref:java#Class#dpm.content.state.StateChangerNetAccessor:oiref>=120,430,267,363,1:oigroup>
+<oigroup:<oiref:java#Class#dpm.content.state.DesignEntityStateChanger:oiref>=410,430,263,459,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#dpm.content.state.DesignEntityStateChanger#scNetAccessor:oiref>=410,611,387,611:oigroup>
+<oigroup:<oiref:design#Class#id35zwidycnhxludycnixxu.diagram:oiref>=643,327,80,92,1:oigroup>
+<oigroup:<oiref:java#Extends#dpm.content.state.SimpleInputPolicy#dpm.content.state.DesignEntityInputPolicy:oiref>=120,273,120,213:oigroup>
+<oigroup:<oiref:java#Class#dpm.content.state.LoopNetReader:oiref>=280,10,220,331,1:oigroup>
+<oigroup:<oiref:design#Class#id42geudy8a7dotdy8a81vs.diagram:oiref>=240,980,83,95,1:oigroup>
+<oigroup:<oiref:java#Class#dpm.content.state.DesignEntityInputPolicy:oiref>=10,10,220,203,1:oigroup>
+*/
+class __positions {
+}

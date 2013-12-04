@@ -1,0 +1,55 @@
+package id17h7rdvanrq3sdvansi8d;
+
+/**
+@version 2.0
+@physicalPackage
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:java#Class#dpm.content.constraint.Constraint:oiref><oihard>
+@__modelType reference 
+*/
+class reference {
+}/**
+@__ref <oiref:java#Class#dpm.content.constraint.Link:oiref><oihard>
+@__modelType reference 
+*/
+class reference48 {
+}/**
+@__ref <oiref:java#Class#dpm.content.constraint.Policy:oiref><oihard>
+@__modelType reference 
+*/
+class reference49 {
+}/**
+@__ref <oiref:java#Class#dpm.content.constraint.DeleteChecker:oiref><oihard>
+@__modelType reference 
+*/
+class reference50 {
+}/**
+@__ref <oiref:design#Class#id45mubdycnhxludycniw6z.diagram:oiref><oihard>
+@__modelType reference
+@__fqn <oiref:#Package#dpm.content.constraint.LOC*jar:oiref> 
+*/
+class reference84 {
+}}/**
+@__tags
+@shapeType ClassDiagram 
+*/
+class __tags {
+}/**
+@__options 
+*/
+class __options {
+}/**
+@__positions <oigroup:<oiref:java#Extends#dpm.content.constraint.Link#dpm.content.constraint.Constraint:oiref>=186,209,186,149:oigroup>
+<oigroup:<oiref:java#Extends#dpm.content.constraint.Policy#dpm.content.constraint.Constraint:oiref>=396,209,396,149:oigroup>
+<oigroup:<oiref:java#Class#dpm.content.constraint.Link:oiref>=10,209,242,274,1:oigroup>
+<oigroup:<oiref:design#Class#id1ydpedy8a7dotdy8a80lw.diagram:oiref>=300,670,83,95,1:oigroup>
+<oigroup:<oiref:java#Class#dpm.content.constraint.Policy:oiref>=272,209,398,114,0:oigroup>
+<oigroup:<oiref:java#Class#dpm.content.constraint.Constraint:oiref>=120,10,400,139,0:oigroup>
+<oigroup:<oiref:java#Class#dpm.content.constraint.DeleteChecker:oiref>=710,10,236,299,1:oigroup>
+<oigroup:<oiref:design#Class#id45mubdycnhxludycniw6z.diagram:oiref>=380,410,80,92,1:oigroup>
+*/
+class __positions {
+}

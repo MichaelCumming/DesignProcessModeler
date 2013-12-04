@@ -1,0 +1,95 @@
+package id4qb17dvanrq3sdvansi65;
+
+/**
+@version 2.0
+@physicalPackage
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:java#Class#dpm.content.comparator.StringComparator:oiref><oihard>
+@__modelType reference 
+*/
+class reference {
+}/**
+@__ref <oiref:java#Class#dpm.content.comparator.NetAdvComparator:oiref><oihard>
+@__modelType reference 
+*/
+class reference38 {
+}/**
+@__ref <oiref:java#Class#dpm.content.comparator.PersonComparator:oiref><oihard>
+@__modelType reference 
+*/
+class reference39 {
+}/**
+@__ref <oiref:java#Class#dpm.content.comparator.PeerAdvComparator:oiref><oihard>
+@__modelType reference 
+*/
+class reference40 {
+}/**
+@__ref <oiref:design#Class#idboq6dvanrq3sdvansi79.diagram:oiref><oihard>
+@__modelType reference
+@__fqn <oiref:#Package#dpm.content.comparator.designEntity:oiref> 
+*/
+class reference41 {
+}/**
+@__ref <oiref:java#Class#dpm.content.comparator.PeerGroupComparator:oiref><oihard>
+@__modelType reference 
+*/
+class reference42 {
+}/**
+@__ref <oiref:java#Class#dpm.content.comparator.IPGAdvComparator:oiref><oihard>
+@__modelType reference 
+*/
+class reference43 {
+}/**
+@__ref <oiref:java#Class#dpm.content.comparator.PeerGroupAdvComparator:oiref><oihard>
+@__modelType reference 
+*/
+class reference44 {
+}/**
+@__ref <oiref:java#Class#dpm.content.comparator.DeleteAdvComparator:oiref><oihard>
+@__modelType reference 
+*/
+class reference45 {
+}/**
+@__ref <oiref:java#Class#dpm.content.comparator.DesignEntityComparator:oiref><oihard>
+@__modelType reference 
+*/
+class reference46 {
+}/**
+@__ref <oiref:java#Class#dpm.content.comparator.ContentStorageComparator:oiref><oihard>
+@__modelType reference 
+*/
+class reference47 {
+}/**
+@__ref <oiref:design#Class#id46e06dycnhxludycnivqk.diagram:oiref><oihard>
+@__modelType reference
+@__fqn <oiref:#Package#dpm.content.comparator.LOC*jar:oiref> 
+*/
+class reference58 {
+}}/**
+@__tags
+@shapeType ClassDiagram 
+*/
+class __tags {
+}/**
+@__options 
+*/
+class __options {
+}/**
+@__positions <oigroup:<oiref:java#Class#dpm.content.comparator.PeerGroupComparator:oiref>=157,170,147,117,1:oigroup>
+<oigroup:<oiref:java#Class#dpm.content.comparator.ContentStorageComparator:oiref>=342,330,173,117,1:oigroup>
+<oigroup:<oiref:java#Class#dpm.content.comparator.PeerAdvComparator:oiref>=294,10,132,117,1:oigroup>
+<oigroup:<oiref:java#Class#dpm.content.comparator.PeerGroupAdvComparator:oiref>=156,330,166,117,1:oigroup>
+<oigroup:<oiref:java#Class#dpm.content.comparator.PersonComparator:oiref>=10,170,127,117,1:oigroup>
+<oigroup:<oiref:design#Class#idboq6dvanrq3sdvansi79.diagram:oiref>=10,490,200,177,1:oigroup>
+<oigroup:<oiref:design#Class#id3n4d4dy8a7dotdy8a809n.diagram:oiref>=500,170,83,95,1:oigroup>
+<oigroup:<oiref:java#Class#dpm.content.comparator.NetAdvComparator:oiref>=149,10,125,117,1:oigroup>
+<oigroup:<oiref:java#Class#dpm.content.comparator.StringComparator:oiref>=10,10,119,117,1:oigroup>
+<oigroup:<oiref:java#Class#dpm.content.comparator.DeleteAdvComparator:oiref>=446,10,142,117,1:oigroup>
+<oigroup:<oiref:java#Class#dpm.content.comparator.IPGAdvComparator:oiref>=10,330,126,117,1:oigroup>
+<oigroup:<oiref:java#Class#dpm.content.comparator.DesignEntityComparator:oiref>=324,170,156,117,1:oigroup>
+*/
+class __positions {
+}

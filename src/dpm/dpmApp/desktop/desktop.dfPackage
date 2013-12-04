@@ -1,0 +1,84 @@
+package id75sydvanrq3sdvansigf;
+
+/**
+@version 2.0
+@physicalPackage
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:design#Class#id4obandvanrq3sdvansik1.diagram:oiref><oihard>
+@__modelType reference
+@__fqn <oiref:#Package#dpm.dpmApp.desktop.utilities:oiref> 
+*/
+class reference {
+}/**
+@__ref <oiref:design#Class#id1c3yadvanrq3sdvansiht.diagram:oiref><oihard>
+@__modelType reference
+@__fqn <oiref:#Package#dpm.dpmApp.desktop.forms:oiref> 
+*/
+class reference25 {
+}/**
+@__ref <oiref:java#Class#dpm.dpmApp.desktop.DpmAppTopFrame:oiref><oihard>
+@__modelType reference 
+*/
+class reference26 {
+}/**
+@__ref <oiref:java#Class#dpm.dpmApp.desktop.DpmColor:oiref><oihard>
+@__modelType reference 
+*/
+class reference27 {
+}/**
+@__ref <oiref:design#Class#idyw6zdvanrq3sdvansiix.diagram:oiref><oihard>
+@__modelType reference
+@__fqn <oiref:#Package#dpm.dpmApp.desktop.subpages:oiref> 
+*/
+class reference28 {
+}/**
+@__ref <oiref:java#Class#dpm.dpmApp.desktop.PnContentFileChooser:oiref><oihard>
+@__modelType reference 
+*/
+class reference29 {
+}/**
+@__ref <oiref:java#Class#dpm.dpmApp.desktop.DpmTerms:oiref><oihard>
+@__modelType reference 
+*/
+class reference30 {
+}/**
+@__ref <oiref:java#Class#dpm.dpmApp.desktop.DpmPage:oiref><oihard>
+@__modelType reference 
+*/
+class reference31 {
+}/**
+@__ref <oiref:design#Class#id3absgdycnhxludycnizdl.diagram:oiref><oihard>
+@__modelType reference
+@__fqn <oiref:#Package#dpm.dpmApp.desktop.LOC*jar:oiref> 
+*/
+class reference81 {
+}}/**
+@__tags
+@shapeType ClassDiagram 
+*/
+class __tags {
+}/**
+@__options option.shadows = false
+*/
+class __options {
+}/**
+@__positions <oigroup:<oiref:design#Class#id4obandvanrq3sdvansik1.diagram:oiref>=250,2650,91,101,1:oigroup>
+<oigroup:<oiref:java#Class#dpm.dpmApp.desktop.PnContentFileChooser:oiref>=360,1180,245,299,1:oigroup>
+<oigroup:<oiref:design#Class#idyw6zdvanrq3sdvansiix.diagram:oiref>=190,1560,139,126,1:oigroup>
+<oigroup:<oiref:design#Class#id2q308dy13o6eidy13oxgz.diagram:oiref>=450,10,83,95,1:oigroup>
+<oigroup:<oiref:java#Class#dpm.dpmApp.desktop.DpmAppTopFrame:oiref>=10,10,325,2587,1:oigroup>
+<oigroup:<oiref:design#Class#id8rhedy8a7dotdy8a82w8.diagram:oiref>=340,3970,83,95,1:oigroup>
+<oigroup:<oiref:design#Class#id3absgdycnhxludycnizdl.diagram:oiref>=662,1172,80,92,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#dpm.dpmApp.desktop.DpmAppTopFrame#terms:oiref>=335,575,370,575:oigroup>
+<oigroup:<oiref:java#Class#dpm.dpmApp.desktop.DpmPage:oiref>=110,1180,220,347,1:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#dpm.dpmApp.desktop.PnContentFileChooser#topFrame:oiref>=360,1329,335,1329:oigroup>
+<oigroup:MemberLink#<oiref:java#Member#dpm.dpmApp.desktop.DpmPage#topFrame:oiref>=330,1295,335,1295:oigroup>
+<oigroup:<oiref:java#Class#dpm.dpmApp.desktop.DpmTerms:oiref>=370,10,325,1131,1:oigroup>
+<oigroup:<oiref:java#Class#dpm.dpmApp.desktop.DpmColor:oiref>=730,10,234,491,1:oigroup>
+<oigroup:<oiref:design#Class#id1c3yadvanrq3sdvansiht.diagram:oiref>=730,550,141,254,1:oigroup>
+*/
+class __positions {
+}

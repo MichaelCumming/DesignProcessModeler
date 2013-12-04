@@ -1,0 +1,43 @@
+package idauu6dvanrq3sdvansil5;
+
+/**
+@version 2.0
+@physicalPackage
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:java#Class#dpm.peer.Peer:oiref><oihard>
+@__modelType reference 
+*/
+class reference {
+}/**
+@__ref <oiref:design#Class#id2jaowdvanrq3sdvansim9.diagram:oiref><oihard>
+@__modelType reference
+@__fqn <oiref:#Package#dpm.peer.peerImpl:oiref> 
+*/
+class reference23 {
+}/**
+@__ref <oiref:design#Class#id2ukegdycnhxludycnj09b.diagram:oiref><oihard>
+@__modelType reference
+@__fqn <oiref:#Package#dpm.peer.LOC*jar:oiref> 
+*/
+class reference88 {
+}}/**
+@__tags
+@shapeType ClassDiagram 
+*/
+class __tags {
+}/**
+@__options option.initialwidth = 300
+option.shadows = false 
+*/
+class __options {
+}/**
+@__positions <oigroup:<oiref:java#Class#dpm.peer.Peer:oiref>=10,10,270,827,1:oigroup>
+<oigroup:<oiref:design#Class#id4ku4qdy8a7dotdy8a83la.diagram:oiref>=210,1040,83,95,1:oigroup>
+<oigroup:<oiref:design#Class#id2ukegdycnhxludycnj09b.diagram:oiref>=7,1014,80,92,1:oigroup>
+<oigroup:<oiref:design#Class#id2jaowdvanrq3sdvansim9.diagram:oiref>=333,10,80,110,1:oigroup>
+*/
+class __positions {
+}

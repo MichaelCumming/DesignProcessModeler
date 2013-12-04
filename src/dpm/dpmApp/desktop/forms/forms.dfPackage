@@ -1,0 +1,91 @@
+package id1c3yadvanrq3sdvansiht;
+
+/**
+@version 2.0
+@physicalPackage
+@__modelType diagram 
+*/
+class diagram {
+/**
+@__ref <oiref:java#Class#dpm.dpmApp.desktop.forms.PolicyInputPanel:oiref><oihard>
+@__modelType reference 
+*/
+class reference {
+}/**
+@__ref <oiref:java#Class#dpm.dpmApp.desktop.forms.NewInputForm:oiref><oihard>
+@__modelType reference 
+*/
+class reference33 {
+}/**
+@__ref <oiref:java#Class#dpm.dpmApp.desktop.forms.NewPeerGroupForm:oiref><oihard>
+@__modelType reference 
+*/
+class reference34 {
+}/**
+@__ref <oiref:java#Class#dpm.dpmApp.desktop.forms.NewRoleForm:oiref><oihard>
+@__modelType reference 
+*/
+class reference35 {
+}/**
+@__ref <oiref:java#Class#dpm.dpmApp.desktop.forms.InputsOutputsForm:oiref><oihard>
+@__modelType reference 
+*/
+class reference36 {
+}/**
+@__ref <oiref:java#Class#dpm.dpmApp.desktop.forms.NewPolicyForm:oiref><oihard>
+@__modelType reference 
+*/
+class reference37 {
+}/**
+@__ref <oiref:java#Class#dpm.dpmApp.desktop.forms.NewDesignEntityForm:oiref><oihard>
+@__modelType reference 
+*/
+class reference38 {
+}/**
+@__ref <oiref:java#Class#dpm.dpmApp.desktop.forms.NewLinkForm:oiref><oihard>
+@__modelType reference 
+*/
+class reference39 {
+}/**
+@__ref <oiref:java#Class#dpm.dpmApp.desktop.forms.HistoryViewer:oiref><oihard>
+@__modelType reference 
+*/
+class reference40 {
+}/**
+@__ref <oiref:java#Class#dpm.dpmApp.desktop.forms.LinkTreeForm:oiref><oihard>
+@__modelType reference 
+*/
+class reference24 {
+}/**
+@__ref <oiref:design#Class#id31bwydycnhxludycniytu.diagram:oiref><oihard>
+@__modelType reference
+@__fqn <oiref:#Package#dpm.dpmApp.desktop.forms.LOC*jar:oiref> 
+*/
+class reference80 {
+}}/**
+@__tags
+@shapeType ClassDiagram 
+*/
+class __tags {
+}/**
+@__options option.initialwidth = 250
+option.shadows = false
+option.diagram.linkLabelMaxWidth = 400 
+*/
+class __options {
+}/**
+@__positions <oigroup:<oiref:java#Class#dpm.dpmApp.desktop.forms.NewPolicyForm:oiref>=470,10,221,363,1:oigroup>
+<oigroup:<oiref:java#Class#dpm.dpmApp.desktop.forms.InputsOutputsForm:oiref>=710,880,250,443,1:oigroup>
+<oigroup:<oiref:java#Class#dpm.dpmApp.desktop.forms.NewLinkForm:oiref>=710,10,250,843,1:oigroup>
+<oigroup:<oiref:design#Class#id31bwydycnhxludycniytu.diagram:oiref>=270,1540,80,92,1:oigroup>
+<oigroup:<oiref:java#Class#dpm.dpmApp.desktop.forms.NewInputForm:oiref>=210,10,241,651,1:oigroup>
+<oigroup:<oiref:java#Class#dpm.dpmApp.desktop.forms.HistoryViewer:oiref>=480,400,213,715,1:oigroup>
+<oigroup:<oiref:java#Class#dpm.dpmApp.desktop.forms.NewDesignEntityForm:oiref>=210,690,250,811,1:oigroup>
+<oigroup:<oiref:java#Class#dpm.dpmApp.desktop.forms.NewRoleForm:oiref>=-20,690,226,411,1:oigroup>
+<oigroup:<oiref:java#Class#dpm.dpmApp.desktop.forms.PolicyInputPanel:oiref>=10,10,169,475,1:oigroup>
+<oigroup:<oiref:design#Class#id3taqvdy8a7dotdy8a82kk.diagram:oiref>=400,2090,83,95,1:oigroup>
+<oigroup:<oiref:java#Class#dpm.dpmApp.desktop.forms.LinkTreeForm:oiref>=980,390,250,699,1:oigroup>
+<oigroup:<oiref:java#Class#dpm.dpmApp.desktop.forms.NewPeerGroupForm:oiref>=990,10,243,347,1:oigroup>
+*/
+class __positions {
+}

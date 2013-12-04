@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE attributes PUBLIC "-//NetBeans//DTD DefaultAttributes 1.0//EN" "http://www.netbeans.org/dtds/attributes-1_0.dtd">
+<attributes version="1.0">
+    <fileobject name="DpmTreeCellRenderer.java">
+        <attr name="class_dependency_javax.swing.tree.DefaultTreeCellRenderer" stringvalue="DpmTreeCellRenderer"/>
+    </fileobject>
+    <fileobject name="LinkTree.java">
+        <attr name="class_dependency_dpm.dpmApp.desktop.DpmTerms" stringvalue="LinkTree"/>
+        <attr name="class_dependency_javax.swing.JTree" stringvalue="LinkTree"/>
+    </fileobject>
+    <fileobject name="LinkTreeLeaf.java">
+        <attr name="class_dependency_javax.swing.tree.DefaultMutableTreeNode" stringvalue="LinkTreeLeaf"/>
+    </fileobject>
+    <fileobject name="LinkTreeNode.java">
+        <attr name="class_dependency_javax.swing.tree.DefaultMutableTreeNode" stringvalue="LinkTreeNode"/>
+    </fileobject>
+    <fileobject name="PGTree.java">
+        <attr name="class_dependency_dpm.dpmApp.desktop.DpmTerms" stringvalue="PGTree"/>
+        <attr name="class_dependency_javax.swing.JTree" stringvalue="PGTree"/>
+    </fileobject>
+    <fileobject name="PGTreeLeaf.java">
+        <attr name="class_dependency_javax.swing.tree.DefaultMutableTreeNode" stringvalue="PGTreeLeaf"/>
+    </fileobject>
+    <fileobject name="PGTreeNode.java">
+        <attr name="class_dependency_dpm.dpmApp.desktop.DpmTerms" stringvalue="PGTreeNode"/>
+        <attr name="class_dependency_javax.swing.tree.DefaultMutableTreeNode" stringvalue="PGTreeNode"/>
+    </fileobject>
+</attributes>

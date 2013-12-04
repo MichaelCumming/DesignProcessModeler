@@ -1,0 +1,186 @@
+/*
+ * PolicyInputPanel.java
+ *
+ * Created on February 28, 2004, 11:29 AM
+ */
+
+package dpm.dpmApp.desktop.forms.input.panels;
+
+import dpm.content.constraint.Link;
+import dpm.dpmApp.desktop.forms.input.TransitionInputPanel;
+import dpm.peer.Peer;
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.Set;
+import javax.swing.JCheckBox;
+import net.jxta.peergroup.PeerGroup;
+import dpm.dpmApp.desktop.*;
+import dpm.content.*;
+import dpm.content.advertisement.designEntity.related.constraint.*;
+import javax.swing.border.*;
+
+
+
+/**
+ *
+ * @author  mc9p
+ */
+public class LinksInputPanel extends TransitionInputPanel {
+    protected boolean incoming;
+    protected Peer appUser;
+    protected PeerGroup parentPG;
+    /**Used to store the links used to label checkBoxes */
+    protected Set inputLinks = new HashSet();
+    protected DpmAppTopFrame topFrame;
+    
+    /**One panel constructed for each transition */
+    public LinksInputPanel(String categoryName, Set links, PeerGroup parentPG, Peer appUser, boolean incoming) {
+        super(categoryName);
+        this.parentPG = parentPG;
+        this.appUser = appUser;
+        this.incoming = incoming;
+        
+        setUpInputSetIterator(links);
+        initComponents();
+        setUpPanel();
+    }
+    
+    /**Checked boxes added if there are roles, else just a text input field */
+    private void setUpPanel() {
+        addOneBoldLabel(getIncomingString());
+        addOnePlainLabel(categoryName);
+        if(inputSetEmpty) {
+            addOnePlainLabel("No link suggestions");
+        }
+        else {
+            boolean checked = false;
+            for(Iterator i = inputSetIterator; i.hasNext(); ) {
+                Link link = (Link)i.next();
+                if(link != null && link.isDoBefore()) { // && linkIsNew(link)) {
+                    addOneCheckBoxLink(link, checked);
+                }
+            }
+        }
+    }
+    
+    private String getIncomingString() {
+        if(incoming) {
+            return "Incoming Links INTO Transition:";
+        }
+        return "Outgoing Links FROM State:";
+    }
+    
+    /**Needed for LinksInputPanel - to allow horizontal scroll */
+    protected void addOneCheckBoxLink(Link link, boolean checked) {
+        if(link != null) {
+            DisplayUserObject duo = new DisplayUserObject(link.getLinkAdv(), appUser);
+            addOneCheckBox(duo.getText(), duo.getToolTipText(), checked);
+            /**Add the link here so it can be retrieved after user selection */
+            inputLinks.add(link);
+        }
+    }
+    
+    /**Retrieves the link that is used to when making a checkbox
+     * @since 28 OCt. 2004 */
+    protected Link getLinkFromCheckBox(JCheckBox cb) {
+        if(cb.isSelected()) {
+            return getLinkUsingCBLabel(cb.getText());
+        }
+        return null;
+    }
+    
+    /**28 Oct. 2004 */
+    protected Link getLinkUsingCBLabel(String cbLabel) {
+        for(Iterator i = inputLinks.iterator(); i.hasNext(); ) {
+            Link link = (Link)i.next();
+            String linkLabel = new DisplayUserObject(link.getLinkAdv(), appUser).getText();
+            if(linkLabel.equals(cbLabel)) {
+                return link;
+            }
+        }
+        return null;
+    }
+    
+    /**@since 28 Oct. 2004 */
+    protected Set getCheckedLinksSet(Set linkLabels) {
+        Set result = new HashSet();
+        if(linkLabels != null) {
+            for(Iterator i = linkLabels.iterator(); i.hasNext(); ) {
+                String linkLabel = (String)i.next();
+                Link link = getLinkUsingCBLabel(linkLabel);
+                result.add(link);
+            }
+        }
+        return result;
+    }
+    
+    /**Retreives a set of links, if checked by the user
+     * @since 28 Oct. 2004 */
+    public Set getAllUserInput() {
+        /** all roles checked */
+        Set linkLabels = getAllCheckedInput();
+        return getCheckedLinksSet(linkLabels);
+    }
+    
+    //NEEDED?
+    /**Gets all links indexed by parentPG's name
+     * @since 26 Oct. 2004 */
+    public boolean linkIsNew(Link link) {
+        //String storageKey = parentPG.getPeerGroupNameX();
+        //STORE_PG
+        String storageKey = parentPG.getPeerGroupID().toString();
+        Set existingLinks = appUser.getEntityRelatives().getAllLinks().getOneRowSet(storageKey);
+        if(existingLinks != null) {
+            for(Iterator i = existingLinks.iterator(); i.hasNext(); ) {
+                Link curLink = (Link)i.next();
+                if(link.similarTo(curLink)) {
+                    System.out.println("link is similar to existing");
+                    return false;
+                }
+            }
+        }
+        System.out.println("link is new");
+        return true;
+    }
+    
+    /** This method is called from within the constructor to
+     * initialize the form.
+     * WARNING: Do NOT modify this code. The content of this method is
+     * always regenerated by the Form Editor.
+     */
+    private void initComponents() {//GEN-BEGIN:initComponents
+
+        setLayout(new java.awt.GridLayout(0, 1));
+
+        setName("");
+    }//GEN-END:initComponents
+    
+    /** Getter for property incoming.
+     * @return Value of property incoming.
+     *
+     */
+    public boolean incoming() {
+        return incoming;
+    }
+    
+    /** Getter for property incoming.
+     * @return Value of property incoming.
+     *
+     */
+    public boolean isIncoming() {
+        return incoming;
+    }
+    
+    /** Setter for property incoming.
+     * @param incoming New value of property incoming.
+     *
+     */
+    public void setIncoming(boolean incoming) {
+        this.incoming = incoming;
+    }
+    
+    // Variables declaration - do not modify//GEN-BEGIN:variables
+    // End of variables declaration//GEN-END:variables
+    
+    
+}
